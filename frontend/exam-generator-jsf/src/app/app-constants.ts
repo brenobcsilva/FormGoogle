@@ -5,7 +5,7 @@ export class AppConstants {
   }
 
   public static get baseLogin(): string{
-    return this.baseSevidor + "v1/professor"
+    return this.baseSevidor + "login"
   }
 
   public static get baseUrl(): string{
